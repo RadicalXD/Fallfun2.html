@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: orange;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body 
+      style="font-family:Verdana;">
+
+<div style="background-color:black;padding:15px;">
+  <h1 style="color:white">Halloween</h1>
+  <h3 style="color:white;font-family:inherit">This October</h3>
+</div>
+
+<div style="overflow:auto;background-color: darkgray">
+  <div class="menu">
+    <div class="menuitem">Costumes</div>
+    <div class="menuitem">Haunted Houses</div>
+    <div class="menuitem">Movie Marathons</div>
+    <div class="menuitem">Trick or Treats</div>
+  </div>
+
+  <div class="main">
+    <h2 style="color:black">Happy Halloween 2023</h2>
+    <p style="color: whitesmoke">Get ready for another spooky season this October. Embrace in the horror of Halloween and its many events throughout the month of October. Scare the daylights of your friends, go to a haunted house and in embrace in classic movie marathons such as Friday The 13th. Go steal some candy this holiday and if you're not provided with a treat then you know what to do with some tricks. Happy Halloween Everybody! </p>
+    <img src="halloween.jpg" style="width:99%">
+  </div>
+
+  <div class="right">
+    <h2 style="color: darkred;font-family: serif">What's happening?</h2>
+    <p style="color: whitesmoke">Pumpkin patches, haunted houses, Friday The 13th Marathon, costume contests and classic trick and treating.</p>
+    <h2 style="color: darkred;font-family: serif">When?</h2>
+    <p style="color:whitesmoke">This whole month is gonna be pure horror. Movie marathon October Friday the 13th.</p>
+    <h2 style="color:darkred;font-family:serif">Game Nights?!</h2>
+    <p style="color:whitesmoke">Yep join your friends with classic interactive horror games such as Until Dawn and The Quarry!</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> Home About Services Team Contact @2023 Web Publishing| All Rights Reserved.</div>
+
+</body>
+</html>
+
